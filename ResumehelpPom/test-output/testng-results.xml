@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37173" started-at="2019-08-28T06:27:14Z" finished-at="2019-08-28T06:27:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37173" started-at="2019-08-28T06:27:14Z" finished-at="2019-08-28T06:27:51Z">
+      <class name="com.resumehelp.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.resumehelp.qa.testcases.LoginPageTest@13fee20c]" name="setup" is-config="true" duration-ms="8390" started-at="2019-08-28T06:27:14Z" finished-at="2019-08-28T06:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpagetitletest()[pri:1, instance:com.resumehelp.qa.testcases.LoginPageTest@13fee20c]" name="loginpagetitletest" duration-ms="11" started-at="2019-08-28T06:27:22Z" finished-at="2019-08-28T06:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitletest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.resumehelp.qa.testcases.LoginPageTest@13fee20c]" name="teardown" is-config="true" duration-ms="746" started-at="2019-08-28T06:27:23Z" finished-at="2019-08-28T06:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.resumehelp.qa.testcases.LoginPageTest@13fee20c]" name="setup" is-config="true" duration-ms="6654" started-at="2019-08-28T06:27:34Z" finished-at="2019-08-28T06:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageLogoImagetest()[pri:2, instance:com.resumehelp.qa.testcases.LoginPageTest@13fee20c]" name="loginPageLogoImagetest" duration-ms="141" started-at="2019-08-28T06:27:40Z" finished-at="2019-08-28T06:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageLogoImagetest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.resumehelp.qa.testcases.LoginPageTest@13fee20c]" name="teardown" is-config="true" duration-ms="769" started-at="2019-08-28T06:27:40Z" finished-at="2019-08-28T06:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.resumehelp.qa.testcases.LoginPageTest@13fee20c]" name="setup" is-config="true" duration-ms="7221" started-at="2019-08-28T06:27:42Z" finished-at="2019-08-28T06:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:3, instance:com.resumehelp.qa.testcases.LoginPageTest@13fee20c]" name="loginTest" duration-ms="1350" started-at="2019-08-28T06:27:49Z" data-provider="LoginTestData" finished-at="2019-08-28T06:27:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raghav.maheshwari@bold.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.resumehelp.qa.testcases.LoginPageTest@13fee20c]" name="teardown" is-config="true" duration-ms="805" started-at="2019-08-28T06:27:50Z" finished-at="2019-08-28T06:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.resumehelp.qa.testcases.LoginPageTest -->
+      <class name="com.resumehelp.qa.testcases.DashboardpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.resumehelp.qa.testcases.DashboardpageTest@4e04a765]" name="setup" is-config="true" duration-ms="9560" started-at="2019-08-28T06:27:23Z" finished-at="2019-08-28T06:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDashboardTitleTest()[pri:1, instance:com.resumehelp.qa.testcases.DashboardpageTest@4e04a765]" name="verifyDashboardTitleTest" duration-ms="9" started-at="2019-08-28T06:27:33Z" finished-at="2019-08-28T06:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.resumehelp.qa.testcases.DashboardpageTest@4e04a765]" name="teardown" is-config="true" duration-ms="768" started-at="2019-08-28T06:27:33Z" finished-at="2019-08-28T06:27:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.resumehelp.qa.testcases.DashboardpageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

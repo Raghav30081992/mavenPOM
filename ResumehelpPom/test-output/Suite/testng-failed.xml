@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.resumehelp.qa.ExtentReportListner.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.resumehelp.qa.testcases.DashboardpageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyDashboardTitleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.resumehelp.qa.testcases.DashboardpageTest -->
+      <class name="com.resumehelp.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginPageLogoImagetest"/>
+          <include name="setup"/>
+          <include name="loginpagetitletest"/>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.resumehelp.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
